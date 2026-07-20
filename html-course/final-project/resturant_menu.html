@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Around The World 360</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Around The World 360</h1>
+      <img id ="header-img" src="images/universal-resturant.jpg" alt="Resturant" width="250">
+      
+      <nav>
+        <a href="#menu">Menu</a>
+
+        <br><br>
+
+        <a href="order-form">Place Order Here</a>
+      </nav>
+    </header>
+    
+    <main>
+      <section id ="menu">
+        <h2>Menu</h2>
+        <article>
+
+          <br><br>
+
+          <h3>Ethiopian Dish</h3>
+          <img id="ethiopian-food" src="images/ethiopian-food.jpg" alt="Ethiopian Food" width="250">
+          <p>This is a delicious meal made with very fresh ingrediants, this colourous meal if from Ethiopia.<i> $12.99</i></p>
+        </article>
+
+        <br><br>
+        
+        <article>
+          <h3>Greek Food</h3>
+          <img id="greek-food" src="images/greek-food.jpg" alt="Greek Food" width="250">
+          <p>A <b>traditional</b> Greek dish made with fresh ingredients, aromatic herbs, olive oil, and authentic Mediterranean spices.<i> $19.99</i></p>
+        </article>
+        
+        <br><br>
+
+        <article>
+          <h3>Indian Food</h3>
+          <img id="indian-food" src="images/indian-food.jpg" alt="Indian Food" width="250">
+          <p>Rich, aromatic flavors featuring tender meats or vegetables simmered with authentic Indian spices and served with fragrant basmati rice or fresh naan.<i> $23.99</i></p>
+        </article>
+
+        <br><br>
+
+      </section>
+      
+      <section id ="order-form">
+        <h2>Place Your Order</h2>
+
+        <br>
+
+        <form>
+          
+          <label for="ethiopian-food">Ethiopian Food:</label>
+          <input type="number" id="ethiopian-food" name="ethiopian" min="0">
+
+          <br><br>
+
+          <label for="greek-food">Greek Food:</label>
+          <input type="number" id="greek-food"  name="greek-food" min="0">
+
+          <br><br>
+
+          <label for="indian-food">Indian Food:</label>
+          <input type="number" id="indian-food" name="indian-food" min="0">
+
+          <br><br>
+
+          <h3>Drinks</h3>
+          <input type="checkbox" id="water">
+          <label for="water">Water</label>
+
+          <br>
+          
+          <input type="checkbox" id="soda">
+          <label id="water">Soda</label>
+
+          <br>
+
+          <input type="checkbox" id="tea">
+          <label id="tea">Tea</label>
+
+          <br><br>
+
+          <h3>Add On's</h3>
+          <input type="checkbox" id="extra-rice">
+          <label id="extra-rice">Extra Rice</label>
+
+          <br>
+
+          <input type="checkbox" id="naan">
+          <label id="nann">Nann</label>
+
+          <br>
+
+          <input type="checkbox" id="lemons">
+          <label id="lemons">Lemons</label>
+
+          <br><br>
+
+          <label for="special-requests">Special Requests:</label>
+
+          <br><br>
+
+          <textarea id="special-requests" name="special-requests" rows="4" cols="20" placeholder="Enter any special requests here..."></textarea>
+
+          <br><br>
+
+          <input type="submit" value="Go To Checkout">
+        </form>
+        <footer>
+          <p>Made with ❤️ by virtual-del!</p>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
